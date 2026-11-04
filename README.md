@@ -12,18 +12,21 @@ It is crucial to keep environment.yml, google.py, sitecustomize.py and setup.sh 
 HW6_venv/
 ├── pain.py
 ├── ultrapain.py
-├── environment.yml
+├── HW6_venv.md
 ├── README.md
+├── environment.yml
 ├── google.py
 ├── sitecustomize.py
-└── setup.sh
+├── setup.sh
+└── photo.jpg
 ```
-
-- `pain.py` is the original script.
-- `environment.yml` describes the Conda environment.
+Files added or modified by me:
+- `README.md` describes the environment setup and how to run the script using it.
+- `environment.yml` lists needed packsges to set up the environment.
 - `google.py` is a tiny local fix for an imported module that the script does not actually use.
 - `sitecustomize.py` applies two compatibility fixes at Python startup.
 - `setup.sh` copies `sitecustomize.py` into the active environment's `site-packages`.
+- `photo.jpg` this is how I chill 😊
 
 ## Requirements
 
